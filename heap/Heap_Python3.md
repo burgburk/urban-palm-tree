@@ -9,22 +9,22 @@ myHeap = []
 
 ## 주요 Methods
 
-* 1. ### ```heappush(heap, item)``` - heap에 삽입(minHeap)
+* ### ```heappush(heap, item)``` - heap에 삽입(minHeap)
 ```python3
 heapq.heappush(myHeap, 5)
 heapq.heappush(myHeap, 1)
 heapq.heappush(myHeap, 3)
 # myHeap = [1, 5, 3]
 ```
-* 2. ### ```pop(heap)``` - Top(min)을 pop
+* ### ```pop(heap)``` - Top(min)을 pop
 ```python3
 heapq.pop(myHeap) # 1, myHeap = [3, 5]
 heapq.pop(myHeap) # 3, myHeap = [5]
 ```
 
-* 3. ### ```heappushpop(heap, item)``` - 개별 heappush + pop 보다 더 빠름!
+* ### ```heappushpop(heap, item)``` - 개별 heappush + pop 보다 더 빠름!
 
-* 4. ### ```heapify(myList)``` - List를 heap의 형태를 만족하도록 변환.
+* ### ```heapify(myList)``` - List를 heap의 형태를 만족하도록 변환.
 
 
-* 5. ```heapq.nlargest(N, iterable, key = None) / heapq.n(smallest(...)``` - Return a list with the _n_ largest elements from the dataset defined by _iterable_. _key_, if provided, specifies a function of one argument that is used to extract a comparison key from each element in _iterable_ (for example, `key=str.lower`). Equivalent to: `sorted(iterable,  key=key,  reverse=True)[:n]`.
+* ```heapq.nlargest(N, iterable, key = None) / heapq.n(smallest(...)``` - Return a list with the _n_ largest elements from the dataset defined by _iterable_. _key_, if provided, specifies a function of one argument that is used to extract a comparison key from each element in _iterable_ (for example, `key=str.lower`). Equivalent to: `sorted(iterable,  key=key,  reverse=True)[:n]`.
