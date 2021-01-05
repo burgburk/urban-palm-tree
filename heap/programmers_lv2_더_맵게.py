@@ -15,6 +15,7 @@ def solution(scoville, K):
         heapq.heappush(heap, first+second*2)
         # print(heap)
         answer+=1
+        
     # 끝까지 섞어서 1개 남았는데 K미만인 경우 -1을 return
     if heap[0] < K: return -1
     
