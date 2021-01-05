@@ -1,4 +1,5 @@
 
+
 # Heap / Priority Queue
 [Python3 공식 문서 (Heap)](https://docs.python.org/3/library/heapq.html)    
 [Python3 공식 문서 (Priority Queue)](https://docs.python.org/ko/3/library/asyncio-queue.html#priority-queue)     
@@ -62,6 +63,10 @@ print(myPQ.get()[1])  # Apple
 
     
 ## Problems
-- [x] [더 맵게] https://programmers.co.kr/learn/courses/30/lessons/42626
-- [ ] [디스크 컨트롤러] https://programmers.co.kr/learn/courses/30/lessons/42627
-- [ ] [이중우선순위큐] https://programmers.co.kr/learn/courses/30/lessons/42628
+- [x] [\[더 맵게\]](https://prorammers.co.kr/learn/courses/30/lessons/42626) - 프로그래머스 lv2
+- [ ] [\[디스크 컨트롤러\]](https://programmers.co.kr/learn/courses/30/lessons/42627) - 프로그래머스 lv3
+- [ ] [\[이중우선순위큐\]](https://programmers.co.kr/learn/courses/30/lessons/42628) - 프로그래머스 lv3 
+- [ ] [\[최대 힙\]](https://www.acmicpc.net/problem/11279) / [\[최소 힙\]](https://www.acmicpc.net/problem/1927) / [\[절댓값 힙\]](https://www.acmicpc.net/problem/11286)- 백준 실버 1, 2
+- [ ] [\[\[가운데를 말해요\]\]](https://www.acmicpc.net/problem/1655) - 백준 골드 2     
+
+* [백준 우선순위 큐 문제 모음](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59)
