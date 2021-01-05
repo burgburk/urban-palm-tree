@@ -1,6 +1,6 @@
 # Heap
 파이썬 공식 문서 : https://docs.python.org/3/library/heapq.html
-## Python3 : ```heapq``` 모듈 사용. list를 heap으로 사용할 수 있게 해줌.   단, Min-Heap이니 주의할 것
+## Python3 : ```heapq``` 모듈 사용. list를 heap으로 사용할 수 있게 해줌.      단, Min-Heap이니 주의할 것
 
 ```python3
 import heapq
