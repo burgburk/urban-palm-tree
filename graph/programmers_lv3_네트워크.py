@@ -12,6 +12,7 @@ def solution(n, computers):
             stack.append(i)
 
             # Start DFS(방문할 노드가 스택에 남아있는 경우)
+            # DFS를 Recursive하게 짜도 풀 수 있을 듯
             while stack: # len(stack) 으로 비어있는지 확인하는 것보다 훨씬 빠름
                 start = stack.pop()
                 visited[start] = True
