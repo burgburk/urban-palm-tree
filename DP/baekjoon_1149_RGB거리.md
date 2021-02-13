@@ -1,5 +1,6 @@
+[문제 링크](https://www.acmicpc.net/problem/1149)
 2D Array 를 이용하여 각 stage별로 이전 stage에 저장된 값을 활용하여 계산\
-Tabulation
+**`Tabulation`**
 
 ```python3
 n = int(input())
